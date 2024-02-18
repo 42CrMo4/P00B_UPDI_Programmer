@@ -88,6 +88,9 @@
   (net 0 "")
 
   (gr_rect (start 109 68.5) (end 190.5 119.5) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 4513c952-6df1-4bbe-84f8-b170d9e0e8d8))
+  (gr_text "sdfs" (at 162 102.5) (layer "F.SilkS") (tstamp 9fa4bc99-79da-4680-bcd4-75b580e19faf)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "<<project_name>>\n<<ID>>\n<<version>>\n<<date>>\n<<hash>>\n<<website_link>>" (at 229.1 153) (layer "F.SilkS") (tstamp db2ece89-8ae6-4182-9241-50ae4c827b71)
     (effects (font (size 1 1) (thickness 0.15)))
   )
