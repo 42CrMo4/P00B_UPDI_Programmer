@@ -30,7 +30,7 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad6_auto:1.6.3
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: '0'
 
@@ -74,7 +74,7 @@ jobs:
         apt -y install git
     
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: '0'
 
@@ -116,7 +116,7 @@ jobs:
         mv *.kicad_pcb ${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}.kicad_pcb
 
     - name: Retrieve results kicad_pcb with the git hash
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}_Kicad_raw
         path: '${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}.kicad_*'
@@ -131,7 +131,7 @@ jobs:
         mv *iBoM.* BoM/
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}_Output
         path: 'Fabrication_temp'
@@ -143,7 +143,7 @@ jobs:
         mv *.step ${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}.step
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.ID_prefix }}${{ env.ID }}_${{ env.project_name }}_Output_STEP
         path: 'Fabrication_temp_step'
