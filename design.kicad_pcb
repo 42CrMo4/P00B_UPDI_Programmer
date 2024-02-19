@@ -91,7 +91,7 @@
   (gr_text "sdfs\n\ndkajölskdj" (at 162 102.5) (layer "F.SilkS") (tstamp 9fa4bc99-79da-4680-bcd4-75b580e19faf)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "<<project_name>>\n<<ID>>\n<<version>>\n<<date>>\n<<hash>>\n<<website_link>>" (at 229.1 153) (layer "F.SilkS") (tstamp db2ece89-8ae6-4182-9241-50ae4c827b71)
+  (gr_text "<<project_name>>\n<<ID>>\n<<version>>\n<<date>>\n<<hash>>\n<<website_link>>" (at 122.5 84.5) (layer "F.SilkS") (tstamp db2ece89-8ae6-4182-9241-50ae4c827b71)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
