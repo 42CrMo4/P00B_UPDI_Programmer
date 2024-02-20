@@ -409,6 +409,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
+    (model "${KIPRJMOD}/3d-models/TS3USB30RSWR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_rect (start 109 68.5) (end 190.5 119.5) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 4513c952-6df1-4bbe-84f8-b170d9e0e8d8))
