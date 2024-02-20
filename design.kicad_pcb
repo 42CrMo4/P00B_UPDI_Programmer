@@ -208,7 +208,7 @@
 
   (footprint "Snapeda:490107670412_WURTH_490107670412" (layer "F.Cu")
     (tedit 65D5144A) (tstamp 5402297b-49ad-4f56-a116-f4b0bc7675e8)
-    (at 170 82)
+    (at 166.5 81)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/490107670412/Wurth+Elektronik/view-part/?ref=eda")
     (property "Description" "\n4 Position Ribbon Cable Connector Black IDC 28 AWG Through Hole, SKEDD\n")
