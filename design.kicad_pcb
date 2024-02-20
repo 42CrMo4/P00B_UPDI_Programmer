@@ -342,7 +342,7 @@
 
   (footprint "Snapeda:TS3USB30RSWR_QFN40P140X180X55-10N" (layer "F.Cu")
     (tedit 65D4FB04) (tstamp add20cb6-8605-468d-9ac2-1bf880068e8e)
-    (at 156.7664 86.0196)
+    (at 160 87.5)
     (property "Availability" "In Stock")
     (property "Check_prices" "https://www.snapeda.com/parts/TS3USB30RSWR/Texas+Instruments/view-part/?ref=eda")
     (property "Description" "\nHigh-speed USB 2.0 (480-Mbps) 1:2 multiplexer & demultiplexer switch with single enable\n")
