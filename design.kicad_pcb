@@ -993,6 +993,7 @@
     (at 141 94.75)
     (descr "SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
+    (property "IPN" "ICS-0251")
     (property "Sheetfile" "design.kicad_sch")
     (property "Sheetname" "")
     (path "/70d3911e-6489-4c6f-a36c-5e3bbb07c3ef")
