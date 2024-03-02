@@ -7124,7 +7124,7 @@
   (symbol (lib_id "power:GND") (at 221.615 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 22b3a896-2430-494e-927f-3a3865d8dac2)
-    (property "Reference" "#PWR?" (id 0) (at 221.615 140.97 0)
+    (property "Reference" "#PWR0139" (id 0) (at 221.615 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 221.615 139.7 0))
@@ -7172,7 +7172,7 @@
   (symbol (lib_id "power:GND") (at 212.09 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f0ea48a-577c-40ab-86ef-e29840bd6f74)
-    (property "Reference" "#PWR?" (id 0) (at 212.09 140.97 0)
+    (property "Reference" "#PWR0138" (id 0) (at 212.09 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 212.09 139.7 0))
@@ -7400,7 +7400,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 212.09 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 62ebb2e8-9966-4d25-8279-84394c505879)
-    (property "Reference" "TP?" (id 0) (at 213.995 125.6029 0)
+    (property "Reference" "TP6" (id 0) (at 213.995 125.6029 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (id 1) (at 213.995 128.1429 0)
@@ -8172,7 +8172,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 221.615 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cba6d5c0-5de0-4bc6-a0fc-894d369b41b2)
-    (property "Reference" "TP?" (id 0) (at 223.52 125.6029 0)
+    (property "Reference" "TP7" (id 0) (at 223.52 125.6029 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (id 1) (at 223.52 128.1429 0)
@@ -8494,11 +8494,11 @@
     (path "/701a78d5-538f-4b17-9dd8-4c15ac09ca12"
       (reference "#PWR0137") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/22b3a896-2430-494e-927f-3a3865d8dac2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/2f0ea48a-577c-40ab-86ef-e29840bd6f74"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/22b3a896-2430-494e-927f-3a3865d8dac2"
+      (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
     )
     (path "/8ff5159f-9d2d-4c22-b93a-c6c716137c33"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -8582,10 +8582,10 @@
       (reference "TP5") (unit 1) (value "VCC") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/62ebb2e8-9966-4d25-8279-84394c505879"
-      (reference "TP?") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
+      (reference "TP6") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/cba6d5c0-5de0-4bc6-a0fc-894d369b41b2"
-      (reference "TP?") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
+      (reference "TP7") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/765b3629-368a-44c5-9010-d6446b5f3f32"
       (reference "U1") (unit 1) (value "AP2112K-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
