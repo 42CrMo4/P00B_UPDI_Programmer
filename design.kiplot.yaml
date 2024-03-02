@@ -51,7 +51,7 @@ outputs:
     options:
       blacklist: 'DNF*'
       output: 'iBoM.html'
-      extra_fields : 'IPN'
+      extra_fields : 'IPN,X'
 
   - name: 'bom_csv_release'
     comment: "Bill of Materials in CSV format" 
