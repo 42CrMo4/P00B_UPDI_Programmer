@@ -125,7 +125,7 @@ outputs:
     type: diff
     layers: ['F.Cu', 'B.Cu']
     options:
-      old: KIBOT_LAST-1
+      old: v1.0
       old_type: git
       new: HEAD
       new_type: git
@@ -137,7 +137,7 @@ outputs:
     comment: "SCH difference with git HEAD"
     type: diff
     options:
-      old: KIBOT_LAST-1
+      old: v1.0
       old_type: git
       new: HEAD
       new_type: git
