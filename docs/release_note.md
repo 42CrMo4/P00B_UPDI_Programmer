@@ -13,3 +13,4 @@ New
 Changes
 * correct power cycle switch pins
 * correct serialUPDI resistor
+* switch outputs of TS3USB30RSWR (D1<->D2) because of DTR signal Levels
