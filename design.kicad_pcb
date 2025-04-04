@@ -750,7 +750,7 @@
     (property "Sheetname" "")
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/JS202011JCQN/C%2526K/view-part/?ref=snap")
     (path "/7799d50f-7bf6-496b-b0f6-286f0d9bc2f7")
-    (attr smd)
+    (attr smd exclude_from_bom)
     (fp_text reference "S2" (at 0 5.5 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 48fbcdd3-4e7a-4f3c-9488-e137efe2c54d)
