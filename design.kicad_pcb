@@ -1966,6 +1966,7 @@
       (net 43 "CTS") (pinfunction "1") (pintype "passive") (tstamp 7c50babd-8cd8-4cef-9a42-ae5711506e27))
   )
 
+  (gr_circle (center 136.8 89.8) (end 137.023607 89.8) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp 1092b638-58d9-423f-b3d6-b551b775a3e8))
   (gr_line (start 161.75 97.75) (end 167.75 97.75) (layer "F.SilkS") (width 0.25) (tstamp 268a777f-0dfb-4e94-955c-ffcde0ef024a))
   (gr_line (start 161.75 91.75) (end 167.75 91.75) (layer "F.SilkS") (width 0.25) (tstamp 42b5733d-c3fe-47c3-b589-d1aa6c11d5c5))
   (gr_line (start 167.75 92.5) (end 167.75 91) (layer "F.SilkS") (width 0.25) (tstamp 433b958a-a6f8-463a-88bf-7892b5079697))
@@ -1975,6 +1976,7 @@
   (gr_rect (start 124 103.75) (end 128 109.25) (layer "F.SilkS") (width 0.12) (fill none) (tstamp ab619cb3-f090-45cf-85cf-ffb837423532))
   (gr_rect (start 127.25 79) (end 139.25 80.75) (layer "F.SilkS") (width 0.12) (fill none) (tstamp bd691ec9-2935-4f84-a87a-d0e067453a02))
   (gr_line (start 167.75 98.5) (end 167.75 97) (layer "F.SilkS") (width 0.25) (tstamp c1d88711-de09-437e-8b0c-859d93bd337a))
+  (gr_circle (center 154.3 93.5) (end 154.523607 93.5) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp d4952d66-0c85-4ff7-bd2b-3260d588ce7b))
   (gr_line (start 161.75 98.5) (end 161.75 97) (layer "F.SilkS") (width 0.25) (tstamp eb78f496-6ba9-4084-a272-35a799e79abb))
   (gr_rect (start 127.25 80.75) (end 131.25 86.25) (layer "F.SilkS") (width 0.12) (fill none) (tstamp f66085a2-c34b-47c6-9f69-cfeec3dc843f))
   (gr_rect (start 124 109.25) (end 136 111) (layer "F.SilkS") (width 0.12) (fill none) (tstamp ff9b3cff-6715-4091-8bd7-83152f6095eb))
