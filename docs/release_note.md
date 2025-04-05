@@ -10,6 +10,7 @@ New
 -
 
 Changes
+* Keep Signal voltage for TS3USB in specified operational condition (now i will work at 5V Level too)
 * Add missing Pin 1 markers
 * Update USB Type-C Footprint to include correct Stencil Data (Tabs had no solder - needed to be soldered by hand)
 * exclude the unneeded switch from BOM. Is not needed due to the automatic switch over
