@@ -1,10 +1,22 @@
-Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,STANDARD,PARTREV,MAXIMUM_PACKAGE_HEIGHT,MANUFACTURER
-1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4,C_Small,C_0805_2012Metric,4, ,~,,,,
-2,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J1 J2,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,2, ,~,,,,
-3,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J3 J4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,2, ,~,,,,
-4,"Inductor, small symbol",L_Small,L1,L_Small,L_1008_2520Metric,1, ,~,,,,
-5,"Resistor, small symbol",R_Small,R1 R2,R_Small,R_0805_2012Metric,2, ,~,,,,
-6,,TPS61099YFFT,U1,TPS61099YFFT,BGA6N40P3X2_122X88X62N,1, ,,IPC 7351B,K,0.625mm,Texas Instruments
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,MP,MANUFACTURER,Standard,MF,MAXIMUM_PACKAGE_HEIGHT,Package,Price,Check_prices,PARTREV,SnapEDA_Link,Availability,MANUFACTURER_NAME,MOUSER_PRICE-STOCK,ALLIED_NUMBER,RS_PART_NUMBER,ALLIED_PRICE-STOCK,MOUSER_PART_NUMBER,HEIGHT,Purchase-URL,RS_PRICE-STOCK,MANUFACTURER_PART_NUMBER,SNAPEDA_PN,IPN,MPN,OC_FARNELL,SUPPLIER,OC_NEWARK
+1,"Unpolarized capacitor, small symbol",C_Small,C3 C4,0.1uF,C_0805_2012Metric,2, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C1 C2,1uF,C_0805_2012Metric,2, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,"Light emitting diode, small symbol",LED_Small,D3 D4,3.3V,LED_0805_2012Metric,2, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,"Light emitting diode, small symbol",LED_Small,D1 D2,5V,LED_0805_2012Metric,2, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J4,Conn_02x02_Counter_Clockwise,PinHeader_2x02_P2.54mm_Vertical,1, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,,GLL1,J1,GLL1,GLL1,1, ,https://www.we-online.com/components/products/datasheet/490107670412.pdf,490107670412,Wuerth Elektronik,gll.wf/1,,,,,,,,,,,,,,,,,,,,,,,,
+7,USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS,TYPE-C-31-M-12,J2,TYPE-C-31-M-12,TYPE-C-31-M-12_HRO_TYPE-C-31-M-12,1, ,,TYPE-C-31-M-12,"HRO Electronics Co., Ltd.",Manufacturer Recommendations,"HRO Electronics Co., Ltd.",3.26 mm,Package,None,https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda,2020.12.08,https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap,Not in stock,,,,,,,,,,,TYPE-C-31-M-12,,,,,
+8,"Jumper, 3-pole, pins 1+2 closed/bridged",Jumper_3_Bridged12,JP1,Jumper_3_Bridged12,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels,1, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,"Resistor, small symbol",R_Small,R3 R4 R5 R7,330,R_0805_2012Metric,4, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,"Resistor, small symbol",R_Small,R6,1k,R_0805_2012Metric,1, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,"Resistor, small symbol",R_Small,R? R1 R2 R9,5.1k,R_0805_2012Metric,4, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,"Resistor, small symbol",R_Small,R?,10k,R_0805_2012Metric,1, ,~,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,Slide Switch DPDT Surface Mount,JS202011JCQN,S1 S2,JS202011JCQN,SW_JS202011JCQN,2, ,,JS202011JCQN,C&K,Manufacturer Recommendations,C&K,5.6 mm,DPDT-6 C&amp;K,None,https://www.snapeda.com/parts/JS202011JCQN/C%2526K/view-part/?ref=eda,11 Nov 19,https://www.snapeda.com/parts/JS202011JCQN/C%2526K/view-part/?ref=snap,In Stock,,,,,,,,,,,,,,,,
+14,Tactile Switches 6.0x6.0x3.4mm 2N w/4 Term .25mm Trvl IP67 Panasonic 0.25mm travel with 4 Terminal | Panasonic Electronic Components EVP-BFAC1A000,EVP-BFAC1A000,S3,Power Cycle,EVP-BFAC1A000_EVPBFAC1A000,1, ,,EVP-BFAC1A000,,,Panasonic Electronic,,None,None,https://www.snapeda.com/parts/EVP-BFAC1A000/Panasonic+Electronic+Components/view-part/?ref=eda,,https://www.snapeda.com/parts/EVP-BFAC1A000/Panasonic+Electronic+Components/view-part/?ref=snap,In Stock,Panasonic,https://www.mouser.com/Search/Refine.aspx?Keyword=667-EVP-BFAC1A000,70900260,,https://www.alliedelec.com/panasonic-evp-bfac1a000/70900260/,667-EVP-BFAC1A000,3.7mm,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=565679&manufacturer=Panasonic Electronic&part_name=EVP-BFAC1A000&search_term=evp-bfac1a000,,EVP-BFAC1A000,,,,,,
+15,"600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5",AP2112K-3.3,U1,AP2112K-3.3,SOT-23-5,1, ,https://www.diodes.com/assets/Datasheets/AP2112.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,"USB serial converter, UART, SOIC-16",CH340C,U3,CH340C,SOIC-16_3.9x9.9mm_P1.27mm,1, ,https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf,,,,,,,,,,,,,,,,,,,,,,,ICS-0251,,,,
+17,,"TCK107AF,LF",U2,"TCK107AF,LF",SOT-23-5,1, ,https://toshiba.semicon-storage.com/info/TCK108AF_datasheet_en_20151229.pdf?did=53240&prodName=TCK108AF,,,,,,,,,,,,,,,,,,,,,,,,,,,
+18,High-speed USB 2.0 (480-Mbps) 1:2 multiplexer & demultiplexer switch with single enable,TS3USB30RSWR,U4,TS3USB30RSWR,TS3USB30RSWR_QFN40P140X180X55-10N,1, ,,TS3USB30RSWR,,,Texas Instruments,,UQFN-10 UQFN-10 Texas Instruments,None,https://www.snapeda.com/parts/TS3USB30RSWR/Texas+Instruments/view-part/?ref=eda,,https://www.snapeda.com/parts/TS3USB30RSWR/Texas+Instruments/view-part/?ref=snap,In Stock,,,,,,,,https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=60717&manufacturer=Texas Instruments&part_name=TS3USB30RSWR&search_term=ts3usb30,,,,,TS3USB30RSWR,1755574,Texas Instruments,45P8339
 
 
 
